@@ -1,0 +1,110 @@
+.meeting-room {
+    display: block;
+    margin: 3% 0 0 0;
+}
+.meeting-room-section {
+    display: flex;
+}
+.room {
+    margin: 0 auto;
+    text-align: center;
+}
+#colorBlock {
+    border: 3px solid #000;
+    height: 100px;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px 0px #000;
+}
+#colorBlockdummy {
+    border: 3px solid #000;
+    height: 100px;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px 0px #000;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+/* Animation */
+@-webkit-keyframes loading {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-moz-keyframes loading {
+      to { -moz-transform: rotate(360deg); }
+  }
+  @-ms-keyframes loading {
+      to { -ms-transform: rotate(360deg); }
+  }
+  @keyframes loading {
+      to { transform: rotate(360deg); }
+  }
+  
+  /* Loader (*/
+#loading {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    margin-left:400px;
+
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #777;
+    border-left: 4px solid #777;
+
+    -webkit-animation: loading 1.2s infinite linear;
+    -moz-animation: loading 1.2s infinite linear;
+    -ms-animation: loading 1.2s infinite linear;
+    animation: loading 1.2s infinite linear;
+
+}
+  
+  /* Just page styling */
+
+
+  
+#botao{
+    font-weight: 300;
+    float:left;
+    margin-left:50px;
+    width:150px;
+    height: 60px;
+    font-weight:bold;
+    font-size: 1.2em;
+    color: #2980b9;
+    background: #ecf0f1;
+    border-bottom: solid 5px;
+    border-style: solid solid;
+      border-color: #CCC #CCC #2980b9 #CCC;
+    /*box-shadow: 0px 10px 10px #bdc3c7, 
+                0px 0px 10px #bdc3c7 inset;*/
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;  
+  }
+  
+  #botao:hover{
+    background:#2980b9;
+    color: #ecf0f1;
+      border-color: #CCC #CCC #ecf0f1 #CCC;
+    box-shadow: 0px 0px 10px #000 inset;
+  }
+  .show{
+      visibility: visible;
+  }
+  .hide{
+      visibility: hidden;
+  }
+  

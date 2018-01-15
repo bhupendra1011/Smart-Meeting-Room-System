@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Meeting Room Status</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Welcome to AKQA</h1>
+        <h3 class="text-center">Meeting Room Status</h3>
+        <div class="meeting-room">
+            <div class="meeting-room-section">
+                <div class="room">
+                    <div class="room-status">
+                        <span id="colorBlock"></span>
+                    </div>
+                    <div class="room-name">
+                        Meeting Room - I
+                        <p id="roomStatus"></p>
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-status">
+                        <span id="colorBlockdummy" class="green"></span>
+                    </div>
+                    <div class="room-name">
+                        Meeting Room - II
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-status">
+                        <span id="colorBlockdummy" class="green"></span>
+                    </div>
+                    <div class="room-name">
+                        Meeting Room - III
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-status">
+                        <span id="colorBlockdummy" class="green"></span>
+                    </div>
+                    <div class="room-name">
+                        Meeting Room - IV
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="botao">Refresh Data</button>
+    <div id="loading" class="hidden"></div>
+  <script src="main.js" async></script>
+</body>
+
+</html>
