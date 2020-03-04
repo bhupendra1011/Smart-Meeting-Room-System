@@ -1,4 +1,6 @@
 # Team_CircuitBreakers
+![iot-project](https://i.ibb.co/tKq203s/iot-project.png)
+
 IOT Hackathon Project
 
 This repo contains front end and hardware code for the hackathon event.
