@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^3.1.1",
     "nodemailer": "^4.4.1",
     "nodemon": "^1.14.11",
     "path": "^0.12.7"
